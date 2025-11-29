@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <dc:title>CO2, Temperature, and Mean Sea Level Data Set</dc:title>
+  <dc:creator>Hayden Dinkin</dc:creator>
+  <dc:creator>Easten Morse</dc:creator>
+  <dc:creator>JJ Wagner</dc:creator>
+  <dc:subject>CO2 Levels</dc:subject>
+  <dc:subject>New York Temperature</dc:subject>
+  <dc:subject>Mean Sea Level</dc:subject>
+  <dc:description>
+  This data includes annual time series data since 1856 to present, containing three keys which are global average annual CO2 concentration (in ppm), mean annual New York Temperature in Celsius, and global mean sea level with cycles removed. 
+  The columns or keys of this data are specifically sea_level_msl (annual global mean sea level in meters), sea_level_trend (trend of sea level), sea_level_high_conf (high confidence 95% of confidence interval), sea_level_low_conf (low confidence 5% of confidence interval), co2_ppm (global annual co2 concentration in ppm), co2_unc_ppm (co2 measurement uncertainty), and temp_value (mean annual ny temperature value in Fahrenheit)
+  The rows correspond to years starting at 1856
+  </dc:description>
+  <dc:publisher>jawyere (via github)</dc:publisher>
+  <dc:date>2025-10</dc:date>
+  <dc:format>csv</dc:format>
+  <dc:identifier>CLIMATE2025-DATA-1</dc:identifier>
+  <dc:source>NOAA Climate Data Archive</dc:source>
+  <dc:language>en</dc:language>
+  <dc:relation>is made up of 3 different NOAA Data Sets</dc:relation>
+  <dc:coverage>1856-2025</dc:coverage>
+  <dc:rights>Access limited to members</dc:rights>
+  </metadata>
