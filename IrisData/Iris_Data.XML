@@ -9,7 +9,7 @@
         This describes an HDF5 representation of the Iris dataset containing measurments 
         of iris flowers and their labels. The original tabular data has been converted from
         its CSV format into an HDF5 file for preservation and access.
-        The HDF5 file stores the feature data and labels in seperate dataset files, along with their original metadata, preserving all the information.
+        The HDF5 file stores the feature data and labels in seperate dataset files, along with their original metadata attached, preserving all the information.
         No transformations were made beside the format conversion, except for standard typ casting needed for HDF5.
     </dc:description>
     <dc:publisher>Jawyere</dc:publisher>

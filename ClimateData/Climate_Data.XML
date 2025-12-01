@@ -9,7 +9,7 @@
         This describes an HDF5 representation of the Climate dataset containing measurments 
         of global average annual CO2 concentration (in ppm), mean annual New York Temperature in Celsius, and global mean sea level with cycles removed from 1856 to present.
         The original tabular data was converted from CSV form for the purpose of preservation and access.
-        The HDF5 file stores the feature data and original metadata in seperate folders, preserving all the information.
+        The HDF5 file stores the feature data and original metadata, preserving all the information.
         No transformations were made beside the format conversion, except for standard typ casting needed for HDF5.
     </dc:description>
     <dc:publisher>Jawyere</dc:publisher>
