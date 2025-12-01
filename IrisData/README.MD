@@ -1,0 +1,3 @@
+This folder contains iris_data.h5, Iris_Data.XML, and Iris_to_HDF5.py. These files are the HDF5 file containing the data, 
+the python script used to convert the original data to HDF5, and metadata for the coverted format. iris_data.h5 contains 3 folders. 
+One stores the original data, another stores the variable names for this data, and one stores the original metadata. The metadata for the converted HDF5 file is in XML format in the Dublin Core standard.

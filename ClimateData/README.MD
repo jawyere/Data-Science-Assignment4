@@ -1,0 +1,3 @@
+This folder contains allClimate_data.h5,  allClimate_to_HDF5.py,  Climate_Data.XML. These files are the HDF5 file containing the data, 
+the python script used to convert the original data to HDF5, and metadata for the coverted format. allClimate_data.h5 contains 2 folders. 
+One stores the original data and one stores the original metadata. The metadata for the converted HDF5 file is in XML format in the Dublin Core standard.

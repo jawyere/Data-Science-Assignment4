@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Climate Data Converted to HDF5</dc:title>
+    <dc:creator>JJ Wagner</dc:creator>
+    <dc:subject>Climate dataset; HDF5; data preservation</dc:subject>
+    <dc:description>
+        This describes an HDF5 representation of the Climate dataset containing measurments 
+        of global average annual CO2 concentration (in ppm), mean annual New York Temperature in Celsius, and global mean sea level with cycles removed from 1856 to present.
+        The original tabular data was converted from CSV form for the purpose of preservation and access.
+        The HDF5 file stores the feature data and original metadata in seperate folders, preserving all the information.
+        No transformations were made beside the format conversion, except for standard typ casting needed for HDF5.
+    </dc:description>
+    <dc:publisher>Jawyere</dc:publisher>
+    <dc:contributor>Data Science-4350</dc:contributor>
+    <dc:date>2025-29-11</dc:date>
+    <dc:type>Dataset</dc:type>
+    <dc:format>HDF5;</dc:format>
+    <dc:identifier>jawyere:climate_data</dc:identifier>
+    <dc:source>
+        Our group Climate Data from Assignment 2. It was obtained from the following github repository: https://github.com/jawyere/Climate-Trends---Data-Science-Assignment-2
+    </dc:source>
+    <dc:relation>README.md</dc:relation>
+    <dc:relation>LICENSE (MIT)</dc:relation>
+    <dc:relation>Notebooks or scripts used for conversion to HDF5</dc:relation>
+    <dc:language>en</dc:language>
+    <dc:coverage>Weather data measurements</dc:coverage>
+    <dc:rights>
+        This repository (code, conversion scripts, and packaging) is distributed
+        under the MIT License. See the LICENSE file for details. Users are
+        responsible for ensuring that their use of the underlying Iris dataset
+        complies with any applicable terms or restrictions.
+    </dc:rights>
+</metadata>

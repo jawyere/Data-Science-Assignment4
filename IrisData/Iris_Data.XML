@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Iris Dataset Converted to HDF5</dc:title>
+    <dc:creator>JJ Wagner</dc:creator>
+    <dc:subject>Iris dataset; HDF5; data preservation</dc:subject>
+    <dc:description>
+        This describes an HDF5 representation of the Iris dataset containing measurments 
+        of iris flowers and their labels. The original tabular data has been converted from
+        its CSV format into an HDF5 file for preservation and access.
+        The HDF5 file stores the feature data and labels in seperate dataset files, along with their original metadata, preserving all the information.
+        No transformations were made beside the format conversion, except for standard typ casting needed for HDF5.
+    </dc:description>
+    <dc:publisher>Jawyere</dc:publisher>
+    <dc:contributor>Data Science-4350</dc:contributor>
+    <dc:date>2025-29-11</dc:date>
+    <dc:type>Dataset</dc:type>
+    <dc:format>HDF5;</dc:format>
+    <dc:identifier>jawyere:iris_data</dc:identifier>
+    <dc:source>
+        Original Iris dataset by R.A. Fisher
+    </dc:source>
+    <dc:relation>README.md</dc:relation>
+    <dc:relation>LICENSE (MIT)</dc:relation>
+    <dc:relation>Notebooks or scripts used for conversion to HDF5</dc:relation>
+    <dc:language>en</dc:language>
+    <dc:coverage>Iris flower measurements</dc:coverage>
+    <dc:rights>
+        This repository is licensed with the MIT License.
+    </dc:rights>
+</metadata>
